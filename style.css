@@ -120,11 +120,30 @@ padding: 3px 24px;
     position: relative;
 }
 .secImg img{
-    width: 30vw;
+    width: 555px;
     z-index: 10;
 }
 .secImg video{
     position: absolute;
     top:51px;
     right:0;
+    width: 25vw;
 }
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+
